@@ -494,7 +494,7 @@ def generate_pdf_from_url(title, url, agency, webpage, date):
             import pdfkit
             path_wkthmltopdf = '../wkhtmltopdf/bin/wkhtmltopdf.exe'
             config =pdfkit.configuration(wkhtmltopdf = path_wkthmltopdf)
-            #option : disable-javascript option to expand checklists/drop downs/etc in page. Eg: TGA Compmed page
+            #option : disable-javascript option to expand checklists/drop downs/etc in page
             options = {'quiet':'','disable-javascript':''}
             pdfkit.from_url(url,original_pdf_folder_directory + date_cleaned + '_' + title_cleaned[0:30] + '_'+ title_cleaned[-15:] + '_' + str(random.randint(0,100)) + '.pdf',configuration=config, options = options)
         except Exception:
