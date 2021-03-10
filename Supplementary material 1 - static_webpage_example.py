@@ -62,7 +62,7 @@ def extract_information_layer2(html_code_bs4):
 
     title = utils.get_title(html_code_bs4, 'h1', 'class', 'gem-c-title__text gem-c-title__text--long')
     subtitle = utils.get_title(html_code_bs4, 'p', 'class', 'gem-c-lead-paragraph ')
-    (case_description_text, table_present_flag, truncation_flag, unprocessed_text) = utils.get_description(html_code_bs4, 'div', 'class', 'gem-c-govspeak govuk-govspeak direction-ltr')
+    (case_description_text, table_present_flag, truncation_flag, unprocessed_text) = utils.get_description(html_code_bs4, 'div', 'class', 'gem-c-direction-ltr')
 
     information_tuple = (title, subtitle, case_description_text, unprocessed_text)
     return information_tuple
