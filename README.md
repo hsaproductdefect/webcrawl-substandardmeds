@@ -1,5 +1,6 @@
 ## webcrawl-substandardmeds
 ## Project Title: Augmenting Product Defect Surveillance through Web Crawling and Machine learning in Singapore
+## Project Owner: Vigilance and Compliance Branch, Health Products Regulation Group, Health Sciences Authority, Singapore
 ## Version Date: 10 Mar 2021
 
 ### Project Description
