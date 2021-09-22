@@ -5,6 +5,8 @@
 ### Project Description
 This project details the process of web crawling of agency webpages and classifying the crawled alerts for substandard medicines through a combined machine learning and keyword-based approach.
 
+Further details of the project can be obtained at the following publication link: https://doi.org/10.1007/s40264-021-01084-w.
+
 ### Table of Contents
 | S/N | Filename | Description |
 | --- | -------- | ----------- |
