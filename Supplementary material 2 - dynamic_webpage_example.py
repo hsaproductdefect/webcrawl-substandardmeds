@@ -118,7 +118,8 @@ def <*main_agency_recall*>(filename):
             title = title
             category = "-"
             issuebg = short_desc_list[i] + ' ' + case_description_text
-            nature_of_issue = utils.perform_text_classification(issuebg)
+            #nature_of_issue = utils.perform_text_classification(issuebg)
+            nature_of_issue = "-"
             products_affected = product_name_list[i]
             affected_company_name = company_name_list[i]
             url = url 
